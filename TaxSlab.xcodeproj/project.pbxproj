@@ -1,0 +1,573 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		39794D26284CCCFE002FFDFC /* TaxSlabApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39794D25284CCCFE002FFDFC /* TaxSlabApp.swift */; };
+		39794D28284CCCFE002FFDFC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39794D27284CCCFE002FFDFC /* ContentView.swift */; };
+		39794D2A284CCD01002FFDFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39794D29284CCD01002FFDFC /* Assets.xcassets */; };
+		39794D2D284CCD01002FFDFC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39794D2C284CCD01002FFDFC /* Preview Assets.xcassets */; };
+		39794D38284CCD01002FFDFC /* TaxSlabTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39794D37284CCD01002FFDFC /* TaxSlabTests.swift */; };
+		39794D42284CCD01002FFDFC /* TaxSlabUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39794D41284CCD01002FFDFC /* TaxSlabUITests.swift */; };
+		39794D44284CCD01002FFDFC /* TaxSlabUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39794D43284CCD01002FFDFC /* TaxSlabUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		39794D34284CCD01002FFDFC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 39794D1A284CCCFE002FFDFC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 39794D21284CCCFE002FFDFC;
+			remoteInfo = TaxSlab;
+		};
+		39794D3E284CCD01002FFDFC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 39794D1A284CCCFE002FFDFC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 39794D21284CCCFE002FFDFC;
+			remoteInfo = TaxSlab;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		39794D22284CCCFE002FFDFC /* TaxSlab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaxSlab.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		39794D25284CCCFE002FFDFC /* TaxSlabApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaxSlabApp.swift; sourceTree = "<group>"; };
+		39794D27284CCCFE002FFDFC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		39794D29284CCD01002FFDFC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		39794D2C284CCD01002FFDFC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		39794D2E284CCD01002FFDFC /* TaxSlab.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TaxSlab.entitlements; sourceTree = "<group>"; };
+		39794D33284CCD01002FFDFC /* TaxSlabTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaxSlabTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		39794D37284CCD01002FFDFC /* TaxSlabTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaxSlabTests.swift; sourceTree = "<group>"; };
+		39794D3D284CCD01002FFDFC /* TaxSlabUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaxSlabUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		39794D41284CCD01002FFDFC /* TaxSlabUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaxSlabUITests.swift; sourceTree = "<group>"; };
+		39794D43284CCD01002FFDFC /* TaxSlabUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaxSlabUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		39794D1F284CCCFE002FFDFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39794D30284CCD01002FFDFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39794D3A284CCD01002FFDFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		39794D19284CCCFE002FFDFC = {
+			isa = PBXGroup;
+			children = (
+				39794D24284CCCFE002FFDFC /* TaxSlab */,
+				39794D36284CCD01002FFDFC /* TaxSlabTests */,
+				39794D40284CCD01002FFDFC /* TaxSlabUITests */,
+				39794D23284CCCFE002FFDFC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		39794D23284CCCFE002FFDFC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				39794D22284CCCFE002FFDFC /* TaxSlab.app */,
+				39794D33284CCD01002FFDFC /* TaxSlabTests.xctest */,
+				39794D3D284CCD01002FFDFC /* TaxSlabUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		39794D24284CCCFE002FFDFC /* TaxSlab */ = {
+			isa = PBXGroup;
+			children = (
+				39794D25284CCCFE002FFDFC /* TaxSlabApp.swift */,
+				39794D27284CCCFE002FFDFC /* ContentView.swift */,
+				39794D29284CCD01002FFDFC /* Assets.xcassets */,
+				39794D2E284CCD01002FFDFC /* TaxSlab.entitlements */,
+				39794D2B284CCD01002FFDFC /* Preview Content */,
+			);
+			path = TaxSlab;
+			sourceTree = "<group>";
+		};
+		39794D2B284CCD01002FFDFC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				39794D2C284CCD01002FFDFC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		39794D36284CCD01002FFDFC /* TaxSlabTests */ = {
+			isa = PBXGroup;
+			children = (
+				39794D37284CCD01002FFDFC /* TaxSlabTests.swift */,
+			);
+			path = TaxSlabTests;
+			sourceTree = "<group>";
+		};
+		39794D40284CCD01002FFDFC /* TaxSlabUITests */ = {
+			isa = PBXGroup;
+			children = (
+				39794D41284CCD01002FFDFC /* TaxSlabUITests.swift */,
+				39794D43284CCD01002FFDFC /* TaxSlabUITestsLaunchTests.swift */,
+			);
+			path = TaxSlabUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		39794D21284CCCFE002FFDFC /* TaxSlab */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39794D47284CCD01002FFDFC /* Build configuration list for PBXNativeTarget "TaxSlab" */;
+			buildPhases = (
+				39794D1E284CCCFE002FFDFC /* Sources */,
+				39794D1F284CCCFE002FFDFC /* Frameworks */,
+				39794D20284CCCFE002FFDFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TaxSlab;
+			productName = TaxSlab;
+			productReference = 39794D22284CCCFE002FFDFC /* TaxSlab.app */;
+			productType = "com.apple.product-type.application";
+		};
+		39794D32284CCD01002FFDFC /* TaxSlabTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39794D4A284CCD01002FFDFC /* Build configuration list for PBXNativeTarget "TaxSlabTests" */;
+			buildPhases = (
+				39794D2F284CCD01002FFDFC /* Sources */,
+				39794D30284CCD01002FFDFC /* Frameworks */,
+				39794D31284CCD01002FFDFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				39794D35284CCD01002FFDFC /* PBXTargetDependency */,
+			);
+			name = TaxSlabTests;
+			productName = TaxSlabTests;
+			productReference = 39794D33284CCD01002FFDFC /* TaxSlabTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		39794D3C284CCD01002FFDFC /* TaxSlabUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39794D4D284CCD01002FFDFC /* Build configuration list for PBXNativeTarget "TaxSlabUITests" */;
+			buildPhases = (
+				39794D39284CCD01002FFDFC /* Sources */,
+				39794D3A284CCD01002FFDFC /* Frameworks */,
+				39794D3B284CCD01002FFDFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				39794D3F284CCD01002FFDFC /* PBXTargetDependency */,
+			);
+			name = TaxSlabUITests;
+			productName = TaxSlabUITests;
+			productReference = 39794D3D284CCD01002FFDFC /* TaxSlabUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		39794D1A284CCCFE002FFDFC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					39794D21284CCCFE002FFDFC = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					39794D32284CCD01002FFDFC = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 39794D21284CCCFE002FFDFC;
+					};
+					39794D3C284CCD01002FFDFC = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 39794D21284CCCFE002FFDFC;
+					};
+				};
+			};
+			buildConfigurationList = 39794D1D284CCCFE002FFDFC /* Build configuration list for PBXProject "TaxSlab" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 39794D19284CCCFE002FFDFC;
+			productRefGroup = 39794D23284CCCFE002FFDFC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				39794D21284CCCFE002FFDFC /* TaxSlab */,
+				39794D32284CCD01002FFDFC /* TaxSlabTests */,
+				39794D3C284CCD01002FFDFC /* TaxSlabUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		39794D20284CCCFE002FFDFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39794D2D284CCD01002FFDFC /* Preview Assets.xcassets in Resources */,
+				39794D2A284CCD01002FFDFC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39794D31284CCD01002FFDFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39794D3B284CCD01002FFDFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		39794D1E284CCCFE002FFDFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39794D28284CCCFE002FFDFC /* ContentView.swift in Sources */,
+				39794D26284CCCFE002FFDFC /* TaxSlabApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39794D2F284CCD01002FFDFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39794D38284CCD01002FFDFC /* TaxSlabTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39794D39284CCD01002FFDFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39794D44284CCD01002FFDFC /* TaxSlabUITestsLaunchTests.swift in Sources */,
+				39794D42284CCD01002FFDFC /* TaxSlabUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		39794D35284CCD01002FFDFC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 39794D21284CCCFE002FFDFC /* TaxSlab */;
+			targetProxy = 39794D34284CCD01002FFDFC /* PBXContainerItemProxy */;
+		};
+		39794D3F284CCD01002FFDFC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 39794D21284CCCFE002FFDFC /* TaxSlab */;
+			targetProxy = 39794D3E284CCD01002FFDFC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		39794D45284CCD01002FFDFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		39794D46284CCD01002FFDFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		39794D48284CCD01002FFDFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TaxSlab/TaxSlab.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TaxSlab/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Astera.TaxSlab;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		39794D49284CCD01002FFDFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TaxSlab/TaxSlab.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TaxSlab/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Astera.TaxSlab;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		39794D4B284CCD01002FFDFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Astera.TaxSlabTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TaxSlab.app/Contents/MacOS/TaxSlab";
+			};
+			name = Debug;
+		};
+		39794D4C284CCD01002FFDFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Astera.TaxSlabTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TaxSlab.app/Contents/MacOS/TaxSlab";
+			};
+			name = Release;
+		};
+		39794D4E284CCD01002FFDFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Astera.TaxSlabUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = TaxSlab;
+			};
+			name = Debug;
+		};
+		39794D4F284CCD01002FFDFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Astera.TaxSlabUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = TaxSlab;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		39794D1D284CCCFE002FFDFC /* Build configuration list for PBXProject "TaxSlab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39794D45284CCD01002FFDFC /* Debug */,
+				39794D46284CCD01002FFDFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39794D47284CCD01002FFDFC /* Build configuration list for PBXNativeTarget "TaxSlab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39794D48284CCD01002FFDFC /* Debug */,
+				39794D49284CCD01002FFDFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39794D4A284CCD01002FFDFC /* Build configuration list for PBXNativeTarget "TaxSlabTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39794D4B284CCD01002FFDFC /* Debug */,
+				39794D4C284CCD01002FFDFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39794D4D284CCD01002FFDFC /* Build configuration list for PBXNativeTarget "TaxSlabUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39794D4E284CCD01002FFDFC /* Debug */,
+				39794D4F284CCD01002FFDFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 39794D1A284CCCFE002FFDFC /* Project object */;
+}
